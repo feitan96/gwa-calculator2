@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>GWA Calculator</title>
+</head>
+<body>
+    <h1>GWA Calculator</h1>
+    <label for="subjectCount">Number of Subjects:</label>
+    <input type="number" id="subjectCount" min="1">
+    <label for="gradingFormat">Choose Grading Format:</label>
+    <input type="radio" id="fivePoint" name="gradingFormat" value="5.0" checked>
+    <label for="fivePoint">5.0</label>
+    <input type="radio" id="onePoint" name="gradingFormat" value="1.0">
+    <label for="onePoint">1.0</label>
+    <input type="radio" id="hundredFormat" name="gradingFormat" value="100">
+    <label for="hundredFormat">100</label>
+    <button id="generateBoxes">Generate Boxes</button>
+    <div id="subjectBoxes"></div>
+    <button id="calculateGWA">Calculate GWA</button>
+    <div id="result"></div>
+    <p class="quote">All hail, maroon and gold!</p>
+    <script src="script.js"></script>
+</body>
+</html>

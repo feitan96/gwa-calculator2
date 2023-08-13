@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#subjectCount, #generateBoxes {
+    margin: 10px;
+}
+
+.subject-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+}
+
+#calculateGWA {
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#calculateGWA:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+}
+
+.quote {
+    font-style: italic;
+    color: #888;
+    margin-top: 20px;
+}
